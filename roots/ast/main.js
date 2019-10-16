@@ -11,7 +11,7 @@ const winCombos = [
 	[0, 4, 8],
 	[6, 4, 2],
 	[2, 1, 0]
-] // every posiplw win on the board
+] // every position win on the board
 
 const cells = document.querySelectorAll('.cell'); // to select every cell in our table ,, the table are holding our x , o boxes
 
@@ -19,7 +19,7 @@ const cells = document.querySelectorAll('.cell'); // to select every cell in our
 
 startGame();
 function startGame() {
-	document.querySelector(".endgame").style.display = "none";
+	document.querySelector(".endgame").style.display = "none"; //
 	origBoard = Array.from(Array(9).keys());
 	for (var i = 0; i < cells.length; i++) {
 		cells[i].innerText = '';
