@@ -57,13 +57,15 @@ AI vs AI For then fun of it
 
 * Hat tip to anyone whose code was used
 * Inspird By :
-https://www.youtube.com/watch?v=l-hh51ncgDI&t=390s
+https://www.youtube.com/watch?v=STjW3eH0Cik
 
 
 ---
 
  ## References
+
  https://towardsdatascience.com/tic-tac-toe-creating-unbeatable-ai-with-minimax-algorithm-8af9e52c1e7d
  https://stackoverflow.com/questions/45822215/could-someone-explain-minimax-tic-tac-toe-algorithm?rq=1
  https://www.kaggle.com/fabdelja/tictactoe
  https://www.analyticsvidhya.com/blog/2019/01/monte-carlo-tree-search-introduction-algorithm-deepmind-alphago/
+ https://www.youtube.com/watch?v=l-hh51ncgDI&t=390s
