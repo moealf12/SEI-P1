@@ -2,43 +2,45 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="ast/main.css">
-    <title>Tic Tac Toe</title>
-
-    <h1 id='head_t'> Try it your Self ..</h1>
-
+    <link rel="stylesheet" href="fron_page.css">
+    <title></title>
   </head>
   <body>
-    <div id='contenar'>
-      <div id='able_cont'>
-    <table>
-      <tr>
-        <td class = 'cell' id='0'></td>
-        <td class = 'cell' id='1'></td>
-        <td class = 'cell' id='2'></td>
-      </tr>
-      <tr>
-        <td class = 'cell' id='3'></td>
-        <td class = 'cell' id='4'></td>
-        <td class = 'cell' id='5'></td>
-      </tr>
-      <tr>
-        <td class = 'cell' id='6'></td>
-        <td class = 'cell' id='7'></td>
-        <td class = 'cell' id='8'></td>
-      </tr>
-    </div>
-    </table>
-    <button id='Start' onClick="startGame()">replay</button>
-  </div>
+    <div id="wraper">
 
-    <div class="endgame">
-      <div class='text'></div>
-    </div>
 
-    <script type="text/javascript" src="ast/main.js">
+      <div id="head_t">
+
+        <h1>Minimax Algorithm</h1>
+
+      </div>
+      <div id="info">
+
+        <aside id ='text_r'>
+          <img src="http://theoryofprogramming.azurewebsites.net/wp-content/uploads/2017/12/minimax-1.jpg"  alt="" width="300px" height="300px" id='img_in_text'>
+          <article>
+            <span class='marker'>Minimax is a kind of backtracking algorithm that is used in decision making and game theory to find the optimal move for a player</span>, assuming that your opponent also plays optimally. <span class="marker">It is widely used in two player turn-based games such as Tic-Tac-Toe, Backgammon, Mancala, Chess, etc.</span>
+              In Minimax the two players are called maximizer and minimizer. <span class='marker'>The maximizer tries to get the highest score possible while the minimizer tries to do the opposite and get the lowest score possible.</span>
+              y board state has a value associated with it. In a given state if the maximizer has upper hand then, the score of the board will tend to be some positive value. If the minimizer has the upper hand in that board state then it will tend to be some negative value. The va
+              of the board are calculated by some heuristics which are unique for every type of game.
+              The idea of this article is to introduce Minimax with a simple example.
+              iIn the above example, there are only two choices for a player. In general, there can be more choices. In that case, we need to recur for all possible moves and find the maximum/minimum. For example, in Tic-Tax-Toe, the first player can make 9 possible moves.
+              In the above example, the scores (leaves of Game Tree) are given to us. For a typical game, we need to derive these values
+
+        </aside>
+        <div id="togame">
+          <input type="text" name="user name" value="" placeholder="userName" id='username'>
+          <button onclick="window.location.href='/Users/mohammedalfisal/desktop/SEI-project/roots/index.html'" id='sub'>Continue</button>
+
+
+        </div>
+    </div>
+    <script type="text/javascript" src="/Users/mohammedalfisal/Desktop/SEI-project_done/roots/front_page.js">
+
     </script>
+
   </body>
   <footer>
+
   </footer>
 </html>
