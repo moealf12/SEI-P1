@@ -1,24 +1,22 @@
 # Project Title
 
-One Paragraph of project description goes here
-
+Tic-Tac-Toe Game
 ## Description
 
-A description of your project. Explain what is the project about and what is the use for it.
+A simple Tic-Tac-Toe game 
 
 ### Technical Used
 What technologies you used that helped you build this project. 
 
-```
-Example:
+
 HTML
 CSS
 JavaScript, and jQuery for DOM manipulation
-```
+
 
 ### Wireframes
 
-Your step by step planning sketch of your project, that you can post them as an image in here.
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 
 ### User Stories
 
